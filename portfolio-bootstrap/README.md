@@ -1,0 +1,2 @@
+# portfolio-2023
+This is my personal portfolio, with an introduction of myself, my skills, and some of my projects. I also include a contact section to be contacted. The technologies used are HTML & CSS using FormSpree for the contact form. I will included the changes on the CHANGELOG.md as I change and add technologies to my personal portfolio.
