@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="utf-8">
+  		<meta name="description" content="Your description goes here">
+  		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Ricardo Reyes</title>
+
+		<!-- external Bootstrap link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<nav class="navbar navbar-expand-sm justify-content-around">
+					<h1 class="">Ricardo Reyes</h1>
+					<button 
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					class="navbar-toggler"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end align-content-end" id="navbarNav">
+						<ul class="navbar-nav justify-content-evenly align-items-end">
+							<li><a href="#home" class="nav-link">Home</a></li>
+							<li><a href="#skills" class="nav-link">Skills</a></li>
+							<li><a href="#projects" class="nav-link">Projects</a></li>
+							<li><a href="#about" class="nav-link">About Me</a></li>
+							<li><a href="#contact" class="nav-link">Contact Me</a></li>
+							<li><a href="https://ricardo-reyes-resume.netlify.app/" class="nav-link" target="_blank">Resume</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+	<!-- About -->
+	<section class="mt-4 ml-4 row justify-content-around" id="about">
+		<img class="rickPicture w-25 mt-4 col-md-6" src="images/rick_reyes.jpg" alt="picture of rick" loading="lazy">
+		<div class="bio col-md-6">
+			<h2 class="text-center">About Me</h2>
+			<p class="bioText">
+				Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
+				Please take a look around, and see what I have been up to, let's see what we can build
+				together.
+			</p>
+			<p>
+				Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about
+				code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll
+				figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering
+				who will do what ever it takes to find an answer.
+			</p>
+			<p>
+				I made my personal portfolio website using HTML, CSS, and Bootstrap.
+			</p>
+		</div>
+	</section>
+
+	<!-- skills -->
+	<section class="mt-5 mb-8 row" id="skills">
+		<h2 class="text-center">Skills</h2>
+		<div class="row mt-4 mb-8">
+			<div class="col-md-6">
+				<h3 class="frontEndSkills text-center">Frond-End</h3>
+				<div class="text-center">
+					<img class="w-25" src="images/icons8-html5-48.svg" alt="html" loading="lazy">
+					<img class="w-25" src="images/icons8-css3-48.svg" alt="css" loading="lazy">
+					<img class="w-25" src="images/icons8-javascript-48.svg" alt="javaScript" loading="lazy">
+					<img class="w-25" src="images/astro.svg" alt="astro" loading="lazy">
+					<img class="w-25" src="images/icons8-tailwindcss.svg" alt="tailwindcss" loading="lazy">
+					<img class="w-25" src="images/icons8-bootstrap-48.svg" alt="bootstrap" loading="lazy">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h3 class="backEndSkills text-center">Back-End</h3>
+				<div class="text-canter">
+					<img class="w-25" src="images/icons8-postgresql-48.svg" alt="postgresql" loading="lazy">
+					<img class="w-25" src="images/icons8-mongodb-48.svg" alt="mongodb" loading="lazy">
+					<img class="w-25" src="images/icons8-java (1).svg" alt="java" loading="lazy">
+					<img class="w-25" src="images/icons8-python-48.svg" alt="python" loading="lazy">
+					<img class="w-25" src="images/icons8-node-js-48.svg" alt="nodeJs" loading="lazy">
+					<img class="w-25" src="images/fastapi (1).svg" alt="fastapi" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- projects -->
+	<section class="justify-content-around">
+		<h2 class="text-center mb-4 mt-4" id="projects">Projects</h2>
+		<div class="projectContainer row text-center">
+			<div class="projectContainer projectCard  col-md-4">
+				<a class="text-white" href="https://vitos-barbershop.netlify.app/" target="_blank">
+					<img class="w-50 rounded-3" src="images/Vitos BarberShop.png" alt="Degenerate Games" loading="lazy"/>
+				</a>
+				<h3 class="mt-4 mb-2">Vito's Barbershop</h3>
+				<p>This website was made with React, HTML, CSS, & Bootstrap.</p>
+			</div>
+			<div class="projectContainer projectCard col-md-4">
+				<a class="text-white" href="https://solemas-creations.netlify.app/" target="_blank">
+					<img class="w-50 rounded-3 justify-content-center" src="images/Solemas Creations.png" alt="Mom and daughter business" loading="lazy"/>
+				</a>
+				<h3 class="mt-4 mb-2">Solemas Creations</h3>
+				<p>This website was made using HTML, CSS & javaScript.</p>
+			</div>
+			<div class="projectContainer projectCard col-md-4">
+				<a class="text-white" href="https://ricardo-reyes-resume.netlify.app/" target="_blank">
+					<img class="w-50 rounded-3" src="images/Resume.png" alt="This is my resume using html and css" loading="lazy"/>
+				</a>
+				<h3 class="mt-4 mb-2">My Resume</h3>
+				<p>This website was made using HTML and CSS.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section class="container d-flex justify-content-center min-vh-100 align-items-center" id="contact">
+		<form class="contactForm text-center  form-control contactFormContainer w-50" action="https://formspree.io/f/mknljvkp" method="POST">
+			<h3 class="text-center mt-4">Contact Me</h3>
+			<label for="name">Name</label>
+			<input type="text"
+					id="name"
+					name="sender-name"
+					placeholder="Enter Your Name"
+					class="input-field"
+					required/>
+
+			<label for="email">Email</label>
+			<input type="email" 
+					id="email"
+					name="sender-email"
+					placeholder="Enter Your Email"
+					class="input-field" 
+					required />
+			<label for="message">Message</label>
+			<textarea id="Message"
+			 rows="4" 
+			 placeholder="Enter Your Message"
+			 name="message"
+			 class="input-field"
+			 required></textarea>
+			<input type="submit"
+					value="submit"
+					id="submit-btn"
+					class="submit-btn mb-4">
+		</form>
+	</section>
+
+	<!-- social -->
+	<div class="text-end fixed-bottom">
+		<a href="https://twitter.com/RickReyesDev" target="_blank">
+			<img 
+				src="images/icons8-twitter.svg"
+				alt="twitter"
+				loading="lazy">
+		</a>
+		<a href="https://www.linkedin.com/in/ricardo-reyes-dev/" target="_blank">
+			<img src="images/icons8-linkedin.svg"
+			alt="linkedin"
+			loading="lazy">
+		</a>
+		<a href="https://github.com/Ricardo-ReyesJr" target="_blank">
+			<img src="images/icons8-github.svg"
+			alt="github"
+			loading="lazy"></a>
+	</div>
+	<footer class="footer text-center text-md-center font-monospace row justify-content-evenly">
+		<div class="col-md-6">
+			<p>&copy; Copyright 2023</p>
+		</div>
+		<div class="col-md-6">
+			<p>
+				Build & Designed by Ricardo Reyes
+			</p>
+		</div>
+	</footer>
+
+	<!--Scripts-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>
